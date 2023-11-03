@@ -11,6 +11,7 @@
   - MethylDackel
 
 ## Usage
+Adjust the params_file.yml accordingly and run:
 ```
 nextflow run main.nf -params-file params_file.yml
 ```
