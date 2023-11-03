@@ -1,0 +1,15 @@
+## path to index
+genbuild: "/path/to/index"
+
+## Working directory
+workingDir: "/path/to/fastq"
+## Pattern distinguising R1 and R2
+pattern: 'R'
+
+## Dependencies
+trim_galore: 'path/to/trim_galore'
+fastqc: 'path/to/fastqc'
+multiqc: 'path/to/multiqc'
+bwameth: 'path/to/bwameth'
+picard: 'path/to/picard'
+methyldackel: 'path/to/methyldackel'
